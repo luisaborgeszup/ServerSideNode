@@ -1,0 +1,28 @@
+{
+  "name": "serversidenode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisaborgeszup/ServerSideNode.git"
+  },
+  "author": "Luisa Lichfett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisaborgeszup/ServerSideNode/issues"
+  },
+  "homepage": "https://github.com/luisaborgeszup/ServerSideNode#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
